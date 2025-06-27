@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TravelMate | Trip Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">?? TravelMate</div>
+    <nav>
+      <a href="#destinations">Destinations</a>
+      <a href="#planner">Plan Your Trip</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Plan Your Dream Trip with TravelMate</h1>
+    <p>Explore. Dream. Discover.</p>
+    <a href="#planner" class="btn">Start Planning</a>
+  </section>
+
+  <section id="destinations" class="section">
+    <h2>Popular Destinations</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?paris" alt="Paris">
+        <h3>Paris</h3>
+        <p>The city of lights and romance.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?bali" alt="Bali">
+        <h3>Bali</h3>
+        <p>Beaches, temples, and tropical vibes.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?tokyo" alt="Tokyo">
+        <h3>Tokyo</h3>
+        <p>Modern cityscape with traditional soul.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="planner" class="section">
+    <h2>Plan Your Trip</h2>
+    <form id="trip-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="text" placeholder="Destination" required />
+      <input type="date" required />
+      <textarea placeholder="Any special requests?" rows="4"></textarea>
+      <button type="submit">Submit Plan</button>
+    </form>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: support@travelmate.com | Phone: +91-9876543210</p>
+  </section>
+
+  <footer>
+    <p>© 2025 TravelMate. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
